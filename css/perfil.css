@@ -60,25 +60,29 @@ main{
 
 .avaliações{
     position:absolute;
-    border-radius: 20%;
+    border-radius: 30%;
     border:1px solid blue;
+    padding: 0.2rem;
     bottom:4rem;
     right: 0.5rem;
 }
 
 .conversar{
     position:absolute;
-    border-radius: 20%;
+    border-radius: 30%;
     border:1px solid blue;
-    bottom:0.1rem;
+    margin-top: 1rem;
+    padding: 0.2rem;
+    top:27rem;
     left: 0.5rem;
 }
 
 .contratar{
     position:absolute;
-    border-radius: 20%;
+    border-radius: 30%;
     border:1px solid blue;
-    top: 29.5rem;
+    padding: 0.2rem;
+    top: 30rem;
     left: 0.5rem;
 }
 footer{
