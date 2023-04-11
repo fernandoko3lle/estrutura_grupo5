@@ -1,0 +1,43 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+}
+
+header{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    font-size: 2rem;
+    font-family: bold;
+    position: relative;
+}
+main{
+    width:100%;
+    height: 100%;
+
+}
+footer{
+    width: 100%;
+    height: 4rem;
+    display:flex;
+    justify-content: space-between;
+    border-top: 1px solid black;}
+.link_seta{
+    position: absolute;
+    top: 0.1rem;
+    left: 0.2rem;
+} 
+
+.seta{
+    width: 2.7rem;
+    height:2.7rem ;
+}
