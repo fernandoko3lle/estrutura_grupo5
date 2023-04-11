@@ -18,11 +18,14 @@ header{
     background-color: lightgray;
     font-size: 2rem;
     font-family: bold;
+    position: relative;
 
 }
 main{
     width:100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
 
 }
 footer{
@@ -60,4 +63,26 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+}
+
+.link_seta{
+    position: absolute;
+    top: 0.1rem;
+    left: 0.2rem;
+} 
+
+.seta{
+    width: 2.7rem;
+    height:2.7rem ;
+}
+
+.ID{
+    width: 20rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid black;
+    margin: 1rem;
+
 }
