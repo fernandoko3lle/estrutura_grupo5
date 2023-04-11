@@ -83,6 +83,19 @@ footer{
     flex-direction: row;
     align-items: center;
     border: 1px solid black;
-    margin: 1rem;
+    border-radius: 1.9rem;
+    justify-content: space-between;
+    margin-top: 1rem;
 
+}
+
+.bola{
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 1px solid black;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.1rem;
 }
