@@ -11,11 +11,13 @@ body{
 
 header{
     width: 100%;
-    height: 3rem;
+    height: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: lightgray;
+    font-size: 2rem;
+    font-family: bold;
 
 }
 main{
@@ -31,8 +33,15 @@ footer{
     border-top: 1px solid black;
 }
 
-li{
+.blocos{
+    width: 20rem;
+    height: 5rem;
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: 1rem;
 }
 .servicos{
     width: 100%;
