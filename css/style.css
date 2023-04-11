@@ -99,3 +99,16 @@ footer{
     align-items: center;
     margin: 0.1rem;
 }
+
+.IDHIST{ 
+    width: 20rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 1.9rem;
+    justify-content: start;
+    margin-top: 1rem;
+
+}
