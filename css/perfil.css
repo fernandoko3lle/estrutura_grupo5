@@ -1,3 +1,15 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+}
 
 header{
     width: 100%;
@@ -17,4 +29,64 @@ header{
 .seta{
     width: 2.7rem;
     height:2.7rem;
+}
+
+main{
+    height: 70%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.foto_perfil{
+    align-self: center;
+    margin-top: 1rem;
+    width: 17rem;
+    height: 17rem;
+    border-radius: 60%;
+    border: 2px solid black; 
+}
+
+.items1{
+    align-self: center;
+    margin-top: 1rem;
+}
+
+.items2{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+.avaliações{
+    position:absolute;
+    border-radius: 20%;
+    border:1px solid blue;
+    bottom:4rem;
+    right: 0.5rem;
+}
+
+.conversar{
+    position:absolute;
+    border-radius: 20%;
+    border:1px solid blue;
+    bottom:0.1rem;
+    left: 0.5rem;
+}
+
+.contratar{
+    position:absolute;
+    border-radius: 20%;
+    border:1px solid blue;
+    top: 29.5rem;
+    left: 0.5rem;
+}
+footer{
+    bottom: 1.8rem;
+    position:absolute;
+    width: 100%;
+    height: 2rem;
+    display:flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
 }
