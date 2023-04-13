@@ -17,7 +17,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid #B3B3B3;;
     position: relative;
 }
 .link_seta{
@@ -61,29 +61,29 @@ main{
 .avaliações{
     position:absolute;
     border-radius: 30%;
-    border:1px solid blue;
     padding: 0.2rem;
     bottom:4rem;
     right: 0.5rem;
+    background-color:#B3B3B3;
 }
 
 .conversar{
     position:absolute;
     border-radius: 30%;
-    border:1px solid blue;
     margin-top: 1rem;
     padding: 0.2rem;
     top:27rem;
     left: 0.5rem;
+    background-color:#B3B3B3;
 }
 
 .contratar{
     position:absolute;
     border-radius: 30%;
-    border:1px solid blue;
     padding: 0.2rem;
     top: 30rem;
     left: 0.5rem;
+    background-color:#B3B3B3;
 }
 footer{
     bottom: 1.8rem;
@@ -92,5 +92,9 @@ footer{
     height: 2rem;
     display:flex;
     justify-content: space-between;
-    border-top: 1px solid black;
+    border-top: 2px solid#B3B3B3;;
+}
+a{
+    text-decoration: none;
+    color: black;
 }

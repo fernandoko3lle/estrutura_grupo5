@@ -51,6 +51,7 @@ main{
     position: relative;
     display: flex;
     flex-direction: row;
+    background-color: #B3B3B3;
 }
 
 .microfone{
