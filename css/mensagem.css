@@ -12,6 +12,12 @@ header{
     position: relative;
     font-size: 2rem;
 }
+.oswald{
+    font-family: 'Oswald', sans-serif;
+}
+.crimson{
+    font-family: 'Crimson Text', serif;;
+}
 
 .link_seta{
     position: absolute;

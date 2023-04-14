@@ -37,7 +37,12 @@ footer{
     justify-content: space-between;
     border-top: 2px solid #B3B3B3;
 }
-
+.oswald{
+    font-family: 'Oswald', sans-serif;
+}
+.crimson{
+    font-family: 'Crimson Text', serif;;
+}
 .blocos{
     width: 20rem;
     height: 5rem;

@@ -10,6 +10,12 @@ body{
     flex-direction: column;
     position: relative;
 }
+.oswald{
+    font-family: 'Oswald', sans-serif;
+}
+.crimson{
+    font-family: 'Crimson Text', serif;;
+}
 
 header{
     width: 100%;
