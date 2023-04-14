@@ -15,11 +15,11 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#FFFFFF;
+    background-color:#CE50FB;
     font-size: 2rem;
     font-family: bold;
     position: relative;
-    border-bottom:2px solid #B3B3B3;
+    border-bottom:2px solid #595959;
 
 }
 main{
@@ -35,7 +35,8 @@ footer{
     display:flex;
     padding-top: 1rem;
     justify-content: space-between;
-    border-top: 2px solid #B3B3B3;
+    border-top: 2px solid #595959;
+    background-color: #CE50FB;
 }
 .oswald{
     font-family: 'Oswald', sans-serif;

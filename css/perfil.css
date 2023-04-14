@@ -23,8 +23,9 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 2px solid #B3B3B3;;
+    border-bottom: 2px solid #595959;
     position: relative;
+    background-color: #CE50FB;
 }
 .link_seta{
     position: absolute;
@@ -51,7 +52,8 @@ main{
     width: 17rem;
     height: 17rem;
     border-radius: 60%;
-    border: 2px solid black; 
+    border: 2px solid #595959; 
+    background-color: #B3B3B3;
 }
 
 .items1{
@@ -92,13 +94,15 @@ main{
     background-color:#B3B3B3;
 }
 footer{
-    bottom: 1.8rem;
+    padding-top: 1rem;
+    bottom :0;
     position:absolute;
     width: 100%;
-    height: 2rem;
+    height: 4rem;
     display:flex;
     justify-content: space-between;
-    border-top: 2px solid#B3B3B3;;
+    border-top: 2px solid #595959;
+    background-color: #CE50FB;
 }
 a{
     text-decoration: none;
